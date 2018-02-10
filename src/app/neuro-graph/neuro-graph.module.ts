@@ -1,5 +1,5 @@
 //Angular
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { NgModule,ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
@@ -80,7 +80,7 @@ export const ROUTES: Routes = [];
     NeuroRelatedComponent,
     BrokerModule
   ],
-  // providers: [],
+  // providers: [AuthenticationService],
   bootstrap: [InfoPopupComponent]
 })
 export class NeuroGraphModule { 
