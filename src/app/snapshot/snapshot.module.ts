@@ -12,8 +12,8 @@ import { PatientConcernsModule } from '@sutterhealth/patient-concerns';
 import { ProgressNotesModule } from '@sutterhealth/progress-notes';
 
 // Neuro Graph components
-//import { NeuroGraphModule } from '@sutterhealth/neuro-graph';
-//import { NeuroGraphModule } from 'neuro-graph';
+// import { NeuroGraphModule } from '@sutterhealth/neuro-graph';
+// import { NeuroGraphModule } from 'neuro-graph';
 import { NeuroGraphModule } from '../neuro-graph/neuro-graph.module';
 
 import {
