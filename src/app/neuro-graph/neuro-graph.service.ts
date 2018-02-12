@@ -3,8 +3,6 @@ import { Observable } from 'rxjs/Observable';
 import { ActivatedRoute } from '@angular/router';
 import { URLSearchParams, RequestOptions, Headers } from '@angular/http';
 import * as moment from 'moment';
-import { SdkService, EndpointsService } from '@sutterhealth/data-services';
-import { SessionService } from '@sutterhealth/user-authentication';
 import { urlMaps, allMessages } from './neuro-graph.config';
 import { BrokerService } from './broker/broker.service';
 
@@ -20,9 +18,6 @@ export class NeuroGraphService {
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private sdk: SdkService,
-    private endpoints: EndpointsService,
-    private session: SessionService,
     private brokerService: BrokerService
   ) {
 

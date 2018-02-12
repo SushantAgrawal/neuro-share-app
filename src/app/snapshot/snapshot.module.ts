@@ -1,15 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { DragulaModule } from 'ng2-dragula';
+
 import { SharedModule } from '../shared/shared.module';
 import { SnapshotComponent } from './snapshot.component';
+
 // Patient Concerns component
 import { PatientConcernsModule } from '@sutterhealth/patient-concerns';
-// import { NeuroGraphModule } from '@sutterhealth/neuro-graph';
-import { NeuroGraphModule } from 'neuro-graph';
-import { FlexLayoutModule } from '@angular/flex-layout';
 // Progress Note
 import { ProgressNotesModule } from '@sutterhealth/progress-notes';
-import { DragulaModule } from 'ng2-dragula';
+
+// Neuro Graph components
+//import { NeuroGraphModule } from '@sutterhealth/neuro-graph';
+//import { NeuroGraphModule } from 'neuro-graph';
+import { NeuroGraphModule } from '../neuro-graph/neuro-graph.module';
 
 import {
   MdTooltipModule,
