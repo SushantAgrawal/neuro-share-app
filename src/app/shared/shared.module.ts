@@ -22,6 +22,7 @@ import { EvalModule, EvalService, EvalEventDirective } from '@sutterhealth/analy
 import { ProgressNotesModule } from '@sutterhealth/progress-notes';
 import { DragulaModule } from 'ng2-dragula';
 import { AuthenticationModule } from '@sutterhealth/user-authentication';
+import { NeuroGraphModule } from '@sutterhealth/neuro-graph';
 
 @NgModule({
   imports: [
@@ -38,7 +39,8 @@ import { AuthenticationModule } from '@sutterhealth/user-authentication';
     MatInputModule,
     ProgressNotesModule,
     DragulaModule,
-    AuthenticationModule
+    AuthenticationModule,
+    NeuroGraphModule.forRoot()
   ],
   declarations: [
     DemographicBarComponent,
