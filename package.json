@@ -42,7 +42,7 @@
     "@nicky-lenaers/ngx-scroll-to": "^0.4.0",
     "@sutterhealth/analytics": "1.1.12",
     "@sutterhealth/data-services": "1.4.31",
-    "@sutterhealth/neuro-graph": "^0.1.36",
+    "@sutterhealth/neuro-graph": "^0.1.43",
     "@sutterhealth/patient-concerns": "^0.1.27",
     "@sutterhealth/progress-notes": "^0.1.13",
     "@sutterhealth/user-authentication": "1.1.14",
