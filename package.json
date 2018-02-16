@@ -20,8 +20,8 @@
     "cd1": "cd %npm_package_config_dest%/src && npm version patch",
     "build1": "cd %npm_package_config_dest% && npm run build",
     "pub1": "cd %npm_package_config_dest%/dist && npm publish",
-    "install": "npm update neuro-graph",
-    "prod": "ng build --prod",
+    "install": "npm update @sutterhealth/neuro-graph",
+    "prod": "ng build --prod --aot",
     "libgen": "npm run copy1 && npm run rem1 && npm run copy2 && npm run cd1 && npm run build1 && npm run pub1 && npm run install && npm run prod"
   },
   "private": true,
