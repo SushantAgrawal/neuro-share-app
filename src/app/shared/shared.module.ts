@@ -24,8 +24,8 @@ import { DragulaModule } from 'ng2-dragula';
 import { AuthenticationModule } from '@sutterhealth/user-authentication';
 
 // Neuro Graph components
-import { NeuroGraphModule } from '@sutterhealth/neuro-graph';
-// import { NeuroGraphModule } from '../neuro-graph/neuro-graph.module';
+// import { NeuroGraphModule } from '@sutterhealth/neuro-graph';
+ import { NeuroGraphModule } from '../neuro-graph/neuro-graph.module';
 
 @NgModule({
   imports: [

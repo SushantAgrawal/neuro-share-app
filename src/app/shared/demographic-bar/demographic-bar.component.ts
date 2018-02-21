@@ -5,7 +5,7 @@ import {ActivityService} from '../services/activity/activity.service';
 import {environment} from '../../../environments/environment';
 import {AppointmentsService} from '../../core/services/appointments.service';
 import {EvalModule, EvalService, EvalEventDirective} from '@sutterhealth/analytics';
-import { NeuroGraphService } from '@sutterhealth/neuro-graph';
+import { NeuroGraphService } from 'app/neuro-graph/neuro-graph.module';
 
 @Component({selector: 'demographic-bar', templateUrl: './demographic-bar.component.html', styleUrls: ['./demographic-bar.component.scss']})
 export class DemographicBarComponent implements OnInit {
